@@ -18,9 +18,7 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               APRENSENTAÇÃO <span className="purple"> PESSOAL </span></h1>
             <p className="home-about-body">
-              Técnico formado em mecatrônica e
-              com um grande interesse por
-              desenvolvimento de software.
+              Desenvolvedor de Software com sólida base em Mecatrônica, especializado em criar soluções que conectam o mundo físico e o digital.
               <br />
               <br />
               <i>

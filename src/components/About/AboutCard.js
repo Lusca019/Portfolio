@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
            Olá a todos, meu nome é <span className="purple">Lucas de Lima </span>
             de <span className="purple"> Belford Roxo, Rio de Janeiro.</span>
-            <br />Sou desenvolvedor junior cursando Sistemas da Informação e técnico formado em mecatrônica.
+            <br />Desenvolvedor Pleno | Especialista Back-end com Node.js. Unindo experiência de mercado com uma visão sistêmica da Mecatrônica e os fundamentos da Análise de Sistemas.
             <br />
             <br />
             Além de codar, algumas outras atividades que adoro fazer!

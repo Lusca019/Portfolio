@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
-import dashboard from "../../Assets/Projects/dashboard.png";
+import techstore from "../../Assets/Projects/techstore.png";
 import corretor from "../../Assets/Projects/corretor.jpeg";
 import pizzaria from "../../Assets/Projects/pizzaria.jpeg";
 import biometria from "../../Assets/Projects/biometria.png";
@@ -21,6 +21,16 @@ function Projects() {
           Aqui estão alguns projetos em que trabalhei recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={techstore}
+              isBlog={false}
+              title="TechStore"
+              description="Modelo de painel de administração baseado em Next.js com pacote de componentes @paljs/ui que usei como base para treinar com nextjs"
+              link="https://ecommerce-ivory-theta-26.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pizzaria}
@@ -68,16 +78,6 @@ function Projects() {
               title="Listagem por biometria"
               description="Um projetinho que estava desenvolvendo para melhorar a lista de presença dos treinamentos na empresa que trabalhei, substituindo os papéis por um método utilizando a biometria do colaborador visando a eficiência e sustentabilidade, onde os colaboradores na atividade terão sua presença armazenada em um banco de dados. A partir disso será possível gerar um relatório de presença em formato csv ou pdf evitando o uso excessivo de papéis."
               link="https://www.linkedin.com/posts/lucas-de-lima-js_desenvolver-automaaexaeto-tecnologia-activity-6892562823327682560-wVHV?utm_source=linkedin_share&utm_medium=member_desktop_web"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={dashboard}
-              isBlog={false}
-              title="Admin Template"
-              description="Modelo de painel de administração baseado em Next.js com pacote de componentes @paljs/ui que usei como base para treinar com nextjs"
-              link="https://nextjs-admin.paljs.com/dashboard"
             />
           </Col>
         </Row>

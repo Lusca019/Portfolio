@@ -6,7 +6,7 @@ import avod from "../../Assets/Projects/avod.png";
 import techstore from "../../Assets/Projects/techstore.png";
 import corretor from "../../Assets/Projects/corretor.jpeg";
 import pizzaria from "../../Assets/Projects/pizzaria.jpeg";
-import biometria from "../../Assets/Projects/biometria.png";
+import sitemoda from "../../Assets/Projects/sitemoda.png";
 import clinica from "../../Assets/Projects/clinica.jpeg";
 
 function Projects() {
@@ -33,11 +33,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={biometria}
+              imgPath={sitemoda}
               isBlog={false}
-              title="Listagem por biometria"
-              description="Um projetinho que estava desenvolvendo para melhorar a lista de presença dos treinamentos na empresa que trabalhei, substituindo os papéis por um método utilizando a biometria do colaborador visando a eficiência e sustentabilidade, onde os colaboradores na atividade terão sua presença armazenada em um banco de dados. A partir disso será possível gerar um relatório de presença em formato csv ou pdf evitando o uso excessivo de papéis."
-              link="https://www.linkedin.com/posts/lucas-de-lima-js_desenvolver-automaaexaeto-tecnologia-activity-6892562823327682560-wVHV?utm_source=linkedin_share&utm_medium=member_desktop_web"
+              title="Fashion History"
+              description="Fashion History: A Visual Guide: Um site educacional que desenvolvi como material de apoio para uma apresentação sobre a história da moda. O projeto foi pensado para ser uma ferramenta de aprendizado, com foco em um design limpo, navegação intuitiva e conteúdo em inglês, estruturando informações de diferentes décadas de maneira clara e visualmente atraente."
+              link="https://sitemoda.vercel.app/"
             />
           </Col>
 
@@ -53,11 +53,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pizzaria}
+              imgPath={biometria}
               isBlog={false}
-              title="Chatbot de pizzaria"
-              description="Desenvolvi uma chatbot com inteligência artificial capaz de anotar pedidos e redirecionar eles para um banco de dados. O Chatbot possui cardapio e formas de pagamentos inclusos. Como o projeto foi desenvolvido para uma empresa a qual prestei serviço não poderei liberar o código."
-              link="https://github.com/Lusca019"
+              title="Listagem por biometria"
+              description="Um projetinho que estava desenvolvendo para melhorar a lista de presença dos treinamentos na empresa que trabalhei, substituindo os papéis por um método utilizando a biometria do colaborador visando a eficiência e sustentabilidade, onde os colaboradores na atividade terão sua presença armazenada em um banco de dados. A partir disso será possível gerar um relatório de presença em formato csv ou pdf evitando o uso excessivo de papéis."
+              link="https://www.linkedin.com/posts/lucas-de-lima-js_desenvolver-automaaexaeto-tecnologia-activity-6892562823327682560-wVHV?utm_source=linkedin_share&utm_medium=member_desktop_web"
             />
           </Col>
 

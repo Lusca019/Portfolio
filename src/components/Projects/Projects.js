@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import ecommerce from "../../Assets/Projects/ecommerce.png";
+import avod from "../../Assets/Projects/avod.png";
 import techstore from "../../Assets/Projects/techstore.png";
 import corretor from "../../Assets/Projects/corretor.jpeg";
 import pizzaria from "../../Assets/Projects/pizzaria.jpeg";
@@ -21,12 +21,32 @@ function Projects() {
           Aqui estão alguns projetos em que trabalhei recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-           <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={avod}
+              isBlog={false}
+              title="AVOD"
+              description="AVOD - Portal de Soluções Tecnológicas: Fui responsável pelo desenvolvimento do website institucional da AVOD, um parceiro estratégico em tecnologia. O objetivo principal foi criar uma presença digital sólida que comunicasse de forma eficaz sua expertise em APIs, integrações e soluções de pagamento. O site foi construído com Vite e focado em uma experiência de usuário intuitiva."
+              link="https://avod-six.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={biometria}
+              isBlog={false}
+              title="Listagem por biometria"
+              description="Um projetinho que estava desenvolvendo para melhorar a lista de presença dos treinamentos na empresa que trabalhei, substituindo os papéis por um método utilizando a biometria do colaborador visando a eficiência e sustentabilidade, onde os colaboradores na atividade terão sua presença armazenada em um banco de dados. A partir disso será possível gerar um relatório de presença em formato csv ou pdf evitando o uso excessivo de papéis."
+              link="https://www.linkedin.com/posts/lucas-de-lima-js_desenvolver-automaaexaeto-tecnologia-activity-6892562823327682560-wVHV?utm_source=linkedin_share&utm_medium=member_desktop_web"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={techstore}
               isBlog={false}
               title="TechStore"
-              description="Modelo de painel de administração baseado em Next.js com pacote de componentes @paljs/ui que usei como base para treinar com nextjs"
+              description="TechStore: Aplicação full-stack de uma loja virtual de eletrônicos. O projeto simula a experiência completa de um e-commerce, permitindo que os usuários naveguem por produtos, gerenciem um carrinho de compras e realizem o checkout. Foi desenvolvido utilizando Node.js como backand e Vite como frontend."
               link="https://ecommerce-ivory-theta-26.vercel.app/"
             />
           </Col>
@@ -61,25 +81,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ecommerce}
-              isBlog={false}
-              title="Ecommerce"
-              description="Tenho um ecommerce como template para apresentações para alguns clientes que desejam algo desse tipo"
-              link="http://lojaexemplolucasecommerce.com.br"
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={biometria}
-              isBlog={false}
-              title="Listagem por biometria"
-              description="Um projetinho que estava desenvolvendo para melhorar a lista de presença dos treinamentos na empresa que trabalhei, substituindo os papéis por um método utilizando a biometria do colaborador visando a eficiência e sustentabilidade, onde os colaboradores na atividade terão sua presença armazenada em um banco de dados. A partir disso será possível gerar um relatório de presença em formato csv ou pdf evitando o uso excessivo de papéis."
-              link="https://www.linkedin.com/posts/lucas-de-lima-js_desenvolver-automaaexaeto-tecnologia-activity-6892562823327682560-wVHV?utm_source=linkedin_share&utm_medium=member_desktop_web"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>

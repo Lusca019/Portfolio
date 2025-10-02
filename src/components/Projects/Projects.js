@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import avod from "../../Assets/Projects/avod.png";
 import techstore from "../../Assets/Projects/techstore.png";
 import corretor from "../../Assets/Projects/corretor.jpeg";
-import pizzaria from "../../Assets/Projects/pizzaria.jpeg";
+import biometria from "../../Assets/Projects/biometria.png";
 import sitemoda from "../../Assets/Projects/sitemoda.png";
 import clinica from "../../Assets/Projects/clinica.jpeg";
 
